@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    background-color: #FFF5E1;
+    padding: 30px;
+    border-radius: 10px;
+    width: 450px;
+    margin: 70px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: #697565;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 2px solid #697565;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+input:focus {
+    border-color: #3ab0ff;
+    box-shadow: 0 0 10px rgba(58, 176, 255, 0.3);
+}
+
+input[type="submit"] {
+    background-color: #697565;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #697565;
+    transition: background-color 0.4s ease;
+}
+ 
+form::after {
+    content: '';
+    display: block;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: scale(0.9); }
+    100% { opacity: 1; transform: scale(1); }
+}

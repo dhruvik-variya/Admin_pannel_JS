@@ -1,0 +1,22 @@
+  .header {
+    background-color: #697565  ;
+    color: #fff;
+    padding: 25px; 
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+  }
+  
+  .navigation-link a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none; 
+    
+  }
